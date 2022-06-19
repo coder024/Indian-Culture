@@ -30,7 +30,7 @@ The website is also responsive and can be viewed on different devices.
 
 # Implementation
 
-Welcome to our website <b>"Indian Culture"!</b>? This is the homepage of the website which shows the logo of the website, navigation bar, and brief introduction of the website. 
+Welcome to our website <b>"Indian Culture"!</b> This is the homepage of the website which shows the logo of the website, navigation bar, and brief introduction of the website. 
 The <b>"Read More"</b> button redirects the user to the official website of Indian Culture by The Government of India.
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/72097687/174475134-c166404b-528f-4080-be92-3cb253d071f7.png">
