@@ -45,7 +45,7 @@ p {
     bottom: 20px;
     right: 25px;
     cursor: pointer;
-    background-color: #00a8b4;
+    background-color: #ff7722;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -66,7 +66,7 @@ header {
     text-align: center;
     padding: 0 200px;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #ff7708;
     background-blend-mode: overlay;
     color: #fff;
 }
@@ -101,11 +101,11 @@ nav {
 }
 
 .nav-fixed h2 {
-    color: #00a8b4 !important;
+    color: #ff7702 !important;
 }
 
 .nav-fixed .nav ul a {
-    color: #00a8b4;
+    color: #138808;
 }
 
 .menu-par {
@@ -126,7 +126,7 @@ nav {
 
 .nav ul a:before {
     content: "s";
-    background-color: #00a8b4;
+    background-color: #ff7702;
     position: absolute;
     top: 0;
     width: 0%;
@@ -162,7 +162,7 @@ nav {
 
 .home_header_info a {
     background-color: #fff;
-    color: #00a8b4;
+    color: #138808;
     text-decoration: none;
     padding: 17px 45px;
     margin-top: 25px;
@@ -178,7 +178,7 @@ nav {
 
 .home_header_info a:after {
     content: "Read More";
-    background-color: #00a8b4;
+    background-color: #138808;
     width: 0%;
     font-size: 15px;
     height: 100%;
@@ -473,12 +473,12 @@ section#gallery {
 
 .filter-button {
     font-size: 18px;
-    border: 1px solid #00a8c5;
+    border: 1px solid #138808;
     border-radius: 5px;
     text-align: center;
     color: #Fff;
     margin-bottom: 30px;
-    background-color: #00a8c5;
+    background-color:#ff7722;
     padding: 10px 20px;
     margin: 20px 0px;
     cursor: pointer;
