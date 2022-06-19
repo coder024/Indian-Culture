@@ -531,6 +531,7 @@ section#gallery {
   padding-bottom: 1rem;
   background-image: linear-gradient(var(--card-gradient), white max(9.5rem, 27vh));
   overflow: hidden;
+  box-sizing: border-box;
 }
 .card img {
   border-radius: 0.5rem 0.5rem 0 0;
@@ -553,11 +554,7 @@ section#gallery {
 }
 
 /* Additional demo display styles */
-* {
-  box-sizing: border-box;
-}
-
-body {
+#fiji-holyday {
   display: grid;
   place-content: center;
   justify-items: center;
@@ -568,6 +565,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   color: #444;
   background-color: #e1faf1;
+  box-sizing: border-box;
+    
 }
 
 .card h3 {
