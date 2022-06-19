@@ -617,7 +617,6 @@ div#blog-par {
 }
 
 .blog-img:before {
-    content: "16 March";
     position: absolute;
     right: 0;
     top: 0px;
