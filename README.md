@@ -23,3 +23,5 @@ Despite this cultural diversity, still, there are many citizens who prefer to mo
 
 As a result, our primary goal is <b>to promote Indian culture and tradition</b>, particularly among the country's youth, and to show them how India is indeed <b>“Incredible”</b> in every way.
 
+# Tools and Technologies Used:
+The website is developed using HTML, CSS, and Javascript. Google My Maps has been used to create a location picker that locates top heritage sites in India.
