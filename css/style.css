@@ -687,7 +687,7 @@ div#blog-par {
     position: relative;
 }
 
-.blog-img:before {
+/*.blog-img:before {
     position: absolute;
     right: 0;
     top: 0px;
@@ -696,7 +696,7 @@ div#blog-par {
     color: #fff;
     z-index: 1;
     padding: 9px;
-}
+}*/
 
 .blog-img img {
     height: 140px;
