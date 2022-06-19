@@ -521,7 +521,78 @@ section#gallery {
 
 /*holyday-fiji*/
 
-#fiji-holyday {
+.card {
+  --card-gradient: rgba(0, 0, 0, 0.8);
+  --card-gradient: #5e9ad9, #e271ad;
+  --card-blend-mode: overlay;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  background-image: linear-gradient(var(--card-gradient), white max(9.5rem, 27vh));
+  overflow: hidden;
+}
+.card img {
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: max(10rem, 30vh);
+  aspect-ratio: 4/3;
+  mix-blend-mode: var(--card-blend-mode);
+}
+.card img ~ * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.card > :last-child {
+  margin-bottom: 0;
+}
+.card:hover, .card:focus-within {
+  --card-gradient: #24a9d5 max(8.5rem, 20vh);
+}
+
+/* Additional demo display styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: #444;
+  background-color: #e1faf1;
+}
+
+.card h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.card a {
+  color: inherit;
+}
+
+.card-wrapper {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  grid-gap: 1.5rem;
+  max-width: 100vw;
+  width: 120ch;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* #fiji-holyday {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/holyday-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -540,8 +611,8 @@ section#fiji-holyday h3 {
     text-transform: capitalize;
 }
 
-
-.owl-img-par {
+ */
+/* .owl-img-par {
     position: relative;
     overflow: hidden;
     width: 500px;
@@ -562,8 +633,8 @@ section#fiji-holyday h3 {
 .owl-img-par img:hover {
     transform: scale(1.1, 1.1);
 }
-
-section#project {
+ */
+/* section#project {
     position: relative;
     margin-top: 50px;
 }
@@ -575,7 +646,7 @@ section#project {
 .owl-img-info h3 {
     font-size: 23px !important;
 }
-
+ */
 /*blog*/
 
 
